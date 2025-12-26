@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819e76ee00639aa4496753e1b8c2d96f, type: 3}
+  m_Name: Level5
+  m_EditorClassIdentifier: 
+  levelIndex: 5
+  levelName: Level 5
+  status: 0
+  difficulty: 0
+  goldAward: 100
+  width: 5
+  height: 5
+  cellSize: 1
+  timeLimit: 60
+  blocks:
+  - position: {x: 1, y: 2}
+    itemColor: 1
+    rotation: 0
+    mirror: 0
+    moveDirection: 1
+    shapeData: {fileID: 11400000, guid: b54d7c292627e9d4589607435837a220, type: 2}
+    effect:
+      type: 0
+      bombTimer: 10
+      iceBlocksToDestroy: 3
+  - position: {x: 2, y: 2}
+    itemColor: 5
+    rotation: 0
+    mirror: 0
+    moveDirection: 2
+    shapeData: {fileID: 11400000, guid: b54d7c292627e9d4589607435837a220, type: 2}
+    effect:
+      type: 0
+      bombTimer: 10
+      iceBlocksToDestroy: 3
+  - position: {x: 1, y: 3}
+    itemColor: 2
+    rotation: 0
+    mirror: 0
+    moveDirection: 2
+    shapeData: {fileID: 11400000, guid: b54d7c292627e9d4589607435837a220, type: 2}
+    effect:
+      type: 0
+      bombTimer: 10
+      iceBlocksToDestroy: 3
+  colorGates:
+  - position: {x: 2, y: 4}
+    itemColor: 5
+    rotation: 0
+    mirror: 0
+    gateData: {fileID: 11400000, guid: 4545bfed786fce34b8272a940e535993, type: 2}
+  - position: {x: 4, y: 2}
+    itemColor: 1
+    rotation: 0
+    mirror: 0
+    gateData: {fileID: 11400000, guid: 4545bfed786fce34b8272a940e535993, type: 2}
+  - position: {x: 1, y: 0}
+    itemColor: 2
+    rotation: 0
+    mirror: 0
+    gateData: {fileID: 11400000, guid: 4545bfed786fce34b8272a940e535993, type: 2}
+  obstacles:
+  - {x: 1, y: 4}
+  - {x: 0, y: 4}
+  - {x: 0, y: 3}
+  - {x: 0, y: 2}
+  - {x: 0, y: 1}
+  - {x: 0, y: 0}
+  - {x: 2, y: 0}
+  - {x: 3, y: 0}
+  - {x: 4, y: 0}
+  - {x: 4, y: 1}
+  - {x: 4, y: 3}
+  - {x: 4, y: 4}
+  - {x: 3, y: 4}
+  voidCells: []

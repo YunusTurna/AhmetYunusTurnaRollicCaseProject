@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 819e76ee00639aa4496753e1b8c2d96f, type: 3}
+  m_Name: Level3
+  m_EditorClassIdentifier: 
+  levelIndex: 3
+  levelName: Level 3
+  status: 0
+  difficulty: 0
+  goldAward: 100
+  width: 10
+  height: 10
+  cellSize: 1
+  timeLimit: 60
+  blocks:
+  - position: {x: 6, y: 4}
+    itemColor: 0
+    rotation: 0
+    mirror: 1
+    moveDirection: 3
+    shapeData: {fileID: 11400000, guid: 774b71245e1564e498b1e8c0887b0a9b, type: 2}
+    effect:
+      type: 0
+      bombTimer: 10
+      iceBlocksToDestroy: 3
+  - position: {x: 3, y: 5}
+    itemColor: 1
+    rotation: 1
+    mirror: 0
+    moveDirection: 3
+    shapeData: {fileID: 11400000, guid: 774b71245e1564e498b1e8c0887b0a9b, type: 2}
+    effect:
+      type: 0
+      bombTimer: 10
+      iceBlocksToDestroy: 3
+  - position: {x: 5, y: 6}
+    itemColor: 1
+    rotation: 1
+    mirror: 0
+    moveDirection: 3
+    shapeData: {fileID: 11400000, guid: b54d7c292627e9d4589607435837a220, type: 2}
+    effect:
+      type: 0
+      bombTimer: 10
+      iceBlocksToDestroy: 3
+  - position: {x: 4, y: 4}
+    itemColor: 0
+    rotation: 1
+    mirror: 0
+    moveDirection: 3
+    shapeData: {fileID: 11400000, guid: b54d7c292627e9d4589607435837a220, type: 2}
+    effect:
+      type: 0
+      bombTimer: 10
+      iceBlocksToDestroy: 3
+  colorGates:
+  - position: {x: 2, y: 9}
+    itemColor: 1
+    rotation: 0
+    mirror: 1
+    gateData: {fileID: 11400000, guid: 2604a5941d348244c998a3aac13e1e77, type: 2}
+  - position: {x: 0, y: 7}
+    itemColor: 0
+    rotation: 1
+    mirror: 1
+    gateData: {fileID: 11400000, guid: 2604a5941d348244c998a3aac13e1e77, type: 2}
+  - position: {x: 9, y: 1}
+    itemColor: 1
+    rotation: 1
+    mirror: 1
+    gateData: {fileID: 11400000, guid: 2604a5941d348244c998a3aac13e1e77, type: 2}
+  - position: {x: 8, y: 0}
+    itemColor: 0
+    rotation: 0
+    mirror: 1
+    gateData: {fileID: 11400000, guid: 2604a5941d348244c998a3aac13e1e77, type: 2}
+  obstacles:
+  - {x: 5, y: 9}
+  - {x: 6, y: 9}
+  - {x: 7, y: 9}
+  - {x: 8, y: 9}
+  - {x: 9, y: 9}
+  - {x: 9, y: 8}
+  - {x: 9, y: 7}
+  - {x: 9, y: 6}
+  - {x: 9, y: 5}
+  - {x: 9, y: 3}
+  - {x: 9, y: 4}
+  - {x: 9, y: 0}
+  - {x: 6, y: 0}
+  - {x: 4, y: 0}
+  - {x: 3, y: 0}
+  - {x: 5, y: 0}
+  - {x: 2, y: 0}
+  - {x: 1, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 1}
+  - {x: 0, y: 2}
+  - {x: 0, y: 5}
+  - {x: 0, y: 6}
+  - {x: 0, y: 4}
+  - {x: 0, y: 3}
+  - {x: 0, y: 9}
+  - {x: 3, y: 9}
+  - {x: 4, y: 9}
+  voidCells: []
