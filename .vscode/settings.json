@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "RollicCaseProject.sln"
+    "dotnet.defaultSolution": "AhmetYunusTurnaRollicCaseProject.slnx"
 }
